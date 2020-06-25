@@ -54,8 +54,8 @@ class Song
     file[1] = @name
     
     song = self.new
-    song.name = file[0]
-    song.artist_name
+    song.name = file[1]
+    song.artist_name = file[0]
     song
   end
   
