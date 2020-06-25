@@ -50,8 +50,6 @@ class Song
     file = filename.split(".")
     file.pop
     file = file.join.split("-").join.split("  ")
-    file[0] = @artist_name
-    file[1] = @name
     
     song = self.new
     song.name = file[1]
