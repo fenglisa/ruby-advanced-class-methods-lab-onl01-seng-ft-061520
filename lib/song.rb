@@ -43,9 +43,7 @@ class Song
   end
   
   def self.alphabetical
-    self.all
-    binding.pry
-    puts "bye"
+    self.all.collect{|song| song.name}.sort
   end
   
   
