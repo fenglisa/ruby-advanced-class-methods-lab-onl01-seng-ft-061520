@@ -45,6 +45,7 @@ class Song
   def self.alphabetical
     self.all.sort_by{|song| song.sort}
     binding.pry
+    puts "bye"
   end
   
   
