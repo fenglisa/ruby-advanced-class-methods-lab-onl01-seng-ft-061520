@@ -49,7 +49,7 @@ class Song
   def self.new_from_filename(filename)
     file = filename.split(".")
     file.pop
-    file = file.join.split("-")
+    file = file.join.split("-").join.split("  ")
     file[0] = @artist_name
     file[1] = @name
     
