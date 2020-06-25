@@ -43,7 +43,7 @@ class Song
   end
   
   def self.alphabetical
-    songs = self.all.collect{|song| song.name}
+    self.all.collect{|song| song.name}
   end
   
   
